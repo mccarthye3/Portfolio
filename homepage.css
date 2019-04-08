@@ -5,21 +5,19 @@ h1{
 h1{
   text-align: center;
 }
-h4{
-  text-align:center;
-}
+
 h5{
   text-align:center;
 }
 p{
-text-align: justify;
+
 vertical-align: middle;
 }
 
 .container-fluid1{
   background-color: #ffe2ec;
   padding: 1em;
-  margin: 1em 1em 1em;
+  margin:1em, 1em;
 }
 body, html {
     height: 100%;
@@ -58,21 +56,21 @@ height: 10%;
   
  nav ul{
 background: rgba(234, 255, 252);    
-list-style: none;
+list-style:none;
 padding: 0 0;
-margin: 0;
-text-align: center;
+margin: 1em;
+text-align:center;
 }
 
 nav li{
-display: inline;
+display: inline;  
 font-family: sans-serif;
 font-size: 14px;
 }
 nav a {
 text-transform: uppercase;
 padding: .5em;
-margin-top: 2em;
+margin-top: 1em;
 text-decoration: none;
 }
 nav a:hover,
@@ -80,12 +78,15 @@ nav a:focus {
     color:#ccc;
 }
 
-
-/* body */
-
+img {
+  float: right;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10%;
+}
 .container-fluid2{
+  float:left;
   background-color: #fff7fb;
   padding: .5em;
-  margin: 1em 1em 1em;
-}
-
+  margin: 1em 5em 1em;
+} 
